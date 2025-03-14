@@ -21,8 +21,8 @@ void keyboard(unsigned char key, int x, int y) {
     if (key == 'g') { red = 0.0; green = 1.0; blue = 0.0; }  // Green
     if (key == 'b') { red = 0.0; green = 0.0; blue = 1.0; }  // Blue
 	if (key == 'y') { red = 1.0; green = 1.0; blue = 0.0; }  // yellow
-	if (key == 'c') { red = 0.0; green = 1.0; blue = 1.0; }  // yellow
-	if (key == 'm') { red = 1.0; green = 0.0; blue = 1.0; }  // yellow
+	if (key == 'c') { red = 0.0; green = 1.0; blue = 1.0; }  // cyan
+	if (key == 'm') { red = 1.0; green = 0.0; blue = 1.0; }  //magenta
     glutPostRedisplay(); // Request to redraw the window
 }
 
